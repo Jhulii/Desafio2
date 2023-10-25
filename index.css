@@ -1,0 +1,206 @@
+body {
+    /* background-color:rgb(7, 153, 182); */
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 22%, rgba(7,153,182,1) 97%);
+    font-family: monospace;
+}
+
+ .container {
+    background-color: rgb(74, 110, 176);
+    max-width: 40rem; 
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    padding: 0rem 0rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo {
+    margin-top: -1.99rem;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+.boton-agregar {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    font-weight: bolder;
+    cursor:pointer; 
+    background: rgb(14, 14, 43);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    padding: 0rem;
+    cursor:pointer;
+}
+
+.boton-agregar:hover{
+    background-color: rgb(72, 32, 231);
+}
+
+.lista-tareas {
+    overflow-y: scroll;
+    list-style: none;
+    padding: 0;
+    width: auto;
+    height: 11rem;
+}
+
+
+.lista-tareas li {
+    margin: 0.5rem;
+    background-color: rgb(7, 153, 182);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+        
+  
+}
+
+.lista-tareas li:hover {
+    background-color: white;
+    
+
+}
+
+
+.boton-eliminar {
+    background: rgb(14, 14, 43);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    padding: 0rem;
+    cursor:pointer;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+.boton-chequear {
+    background: rgb(14, 14, 43);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    padding: 0rem;
+    cursor:pointer;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+
+.boton-chequear:hover{
+    background: rgb(11, 161, 91);
+}
+
+.boton-eliminar:hover{
+    background: rgb(163, 20, 20);
+}
+
+
+.input-tarea {
+    
+    border: none;
+    background-color:  rgb(240, 213, 213);
+    padding: auto;
+    width: 100%;
+    outline: none;
+    font-size: medium;
+    resize: none;
+    
+ 
+}
+
+.acciones{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 0;
+}
+
+.boton-eliminartodo {
+    display: block;
+    margin: auto;
+    margin-right: 0;
+    padding: 0rem;
+    font-weight: bold;
+    background: black;
+    cursor:pointer;
+    font-weight: bold;
+    border: none;
+    width: 3rem;
+    height: 2rem;
+
+
+}
+
+.boton-eliminartodo:hover{
+    background-color: rgb(163, 20, 20);
+}
+
+.boton-contadorcompletas{
+    display: block;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    background: green;
+    margin-top: 1rem;
+    cursor:pointer;
+
+   
+}
+
+.boton-contadorincompletas{
+    display: block;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    background: orange;
+    margin-top: 1rem;
+    cursor:pointer;
+
+   
+}
+
+.boton-contadortotal{
+    display: block;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    background:purple;
+    margin-top: 1rem;
+    cursor:pointer;
+
+   
+}
+
+.acciones button:hover{
+   color: rgb(74, 110, 176);
+   background-color: black;
+}
+
+
+
+@media only screen and (min-width: 40rem) {
+    .container { padding: 4rem 5rem;}
+    
+    
+  }
+
+
+ 
+  
+
+
+
+
+
+/*Lista de Tareas con LocalStorage | Parte 1 CSS y HTML*/
