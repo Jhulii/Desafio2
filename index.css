@@ -1,7 +1,7 @@
 body {
     /* background-color:rgb(7, 153, 182); */
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 22%, rgba(7,153,182,1) 97%);
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 22%, rgba(7,153,182,1) 97%); */
     font-family: monospace;
 }
 
@@ -188,16 +188,17 @@ body {
 }
 
 
+.tachar {
+    text-decoration: line-through;
+}
+
 
 @media only screen and (min-width: 40rem) {
     .container { padding: 4rem 5rem;}
     
     
-  }
+}
 
-
- 
-  
 
 
 
