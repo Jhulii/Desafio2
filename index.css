@@ -116,8 +116,7 @@ body {
     outline: none;
     font-size: medium;
     resize: none;
-    
- 
+    height: 28px;
 }
 
 .acciones{
